@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Ellie Braga — Product Designer." />
+    <title>Ellie Braga — Product Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@400;500;600&family=Host+Grotesk:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="portfolio">
+      <header class="site-header nav">
+        <a class="brand wordmark" href="#top" aria-label="Voltar ao início">ellie</a>
+        <nav aria-label="Navegação principal">
+          <a href="#projects">projetos</a>
+          <a href="#sobre">sobre</a>
+        </nav>
+      </header>
+
+      <section class="hero figma-hero" id="top" aria-label="Apresentação">
+        <img class="hero-ring" src="assets/ring.svg" alt="" />
+        <img class="hero-orb" src="assets/top-orb.svg" alt="" />
+        <img class="hero-dot" src="assets/dot.svg" alt="" />
+        <img class="hero-small-dot" src="assets/small-dot.svg" alt="" />
+        <img class="hero-bottom-orb" src="assets/orb.svg" alt="" />
+        <img class="portrait" src="assets/profile.svg" alt="Retrato de Ellie Braga" />
+        <div class="identity"><h1>Ellie Braga</h1><p>Product Designer</p></div>
+      </section>
+
+      <section class="projects figma-projects" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projetos</h2>
+        <div class="project-grid">
+          <a class="project-card" href="girassol.html" aria-label="Ver projeto Girassol"><span class="project-preview preview-a"></span><span class="project-name">Girassol</span><span class="project-type">Design System</span></a>
+          <a class="project-card" href="eleanor.html" aria-label="Ver case Eleanor"><span class="project-preview preview-b"></span><span class="project-name">Eleanor</span><span class="project-type">Design System</span></a>
+          <a class="project-card" href="#" aria-label="Ver projeto Flui"><span class="project-preview preview-c"></span><span class="project-name">Flui</span><span class="project-type">Design System</span></a>
+          <a class="project-card" href="#" aria-label="Ver projeto Writr"><span class="project-preview preview-d"></span><span class="project-name">Writr</span><span class="project-type">Plataforma de escrita</span></a>
+        </div>
+      </section>
+
+      <footer id="sobre"><p>Product Designer focada em sistemas, clareza e experiências que evoluem com as pessoas.</p><a href="mailto:contato@elliebraga.com">Vamos conversar ↗</a></footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
